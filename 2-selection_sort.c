@@ -1,8 +1,10 @@
 #include <unistd.h>
 #include "sort.h"
 /**
- * _putchar - Fonction qui écrit un caractère à l'écran
- * @c: le caractère à afficher
+ * _putchar - Prints a character to stdout
+ * @c: The character to print
+ *
+ * Return: On success, 1. On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c)
 {
